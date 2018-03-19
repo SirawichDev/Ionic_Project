@@ -1,3 +1,4 @@
+import { GotoUserPage } from './../pages/goto-user/goto-user';
 import { ClickmePage } from './../pages/fontend/clickme/clickme';
 import { FontendPage } from './../pages/fontend/fontend';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +15,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     FontendPage,
-    ClickmePage
+    ClickmePage,
+    GotoUserPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     FontendPage,
-    ClickmePage
+    ClickmePage,
+    GotoUserPage
   ],
   providers: [
     StatusBar,

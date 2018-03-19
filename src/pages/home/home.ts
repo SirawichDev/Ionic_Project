@@ -1,3 +1,4 @@
+import { GotoUserPage } from './../goto-user/goto-user';
 import { FontendPage } from './../fontend/fontend';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -13,6 +14,9 @@ export class HomePage {
   }
   GotoFrontend(){
     this.navCtrl.push(FontendPage);
+  }
+  ViewUser(){
+    this.navCtrl.push(GotoUserPage);
   }
 
 }
