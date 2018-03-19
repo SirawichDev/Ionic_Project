@@ -1,3 +1,4 @@
+import { ClickmePage } from './../pages/fontend/clickme/clickme';
 import { FontendPage } from './../pages/fontend/fontend';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -12,7 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    FontendPage
+    FontendPage,
+    ClickmePage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   entryComponents: [
     MyApp,
     HomePage,
-    FontendPage
+    FontendPage,
+    ClickmePage
   ],
   providers: [
     StatusBar,

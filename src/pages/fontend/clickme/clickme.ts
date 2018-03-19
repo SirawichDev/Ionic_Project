@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
     templateUrl:'clickme.html'
 })
 export class ClickmePage{
-
+    name: string;
+    
 }
