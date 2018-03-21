@@ -29,7 +29,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     FontendPage,
-    GotoUserPage
+    GotoUserPage,
+    ShowPage
   ],
   providers: [
     StatusBar,

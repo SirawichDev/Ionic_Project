@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'page-fontend',
-  templateUrl: 'fontend.html',
+  templateUrl: 'fontend.html'
 })
 export class FontendPage {
   constructor (private navCtrl: NavController){}
 
-  Showme(name:string){
-    this.navCtrl.push(ShowPage,{userName: name});
+  Clickme(click: string){
+    this.navCtrl.push(ShowPage,{Clicked:click});
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavParams } from 'ionic-angular';
+import { NavParams, NavController } from 'ionic-angular';
 
 @Component({
     selector: 'result-page',
@@ -7,10 +7,15 @@ import { NavParams } from 'ionic-angular';
 })
 export class ShowPage implements OnInit{
     name:string;
-    constructor (private navParam: NavParams) {}
+    constructor (private navParam: NavParams,
+    private Nav:NavController) {}
 
     ngOnInit(){
-        this.name = this.navParam.get('userName');
+       
+        this.name = this.navParam.get('Clicked');
+    }
+    Goback(){
+        this.Nav.pop();
     }
 
 }
