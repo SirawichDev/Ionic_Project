@@ -15,7 +15,8 @@ export class ShowPage implements OnInit{
         this.name = this.navParam.get('Clicked');
     }
     Goback(){
-        this.Nav.pop();
+        //this.Nav.pop(); pre page
+        this.Nav.popToRoot();
     }
 
 }
