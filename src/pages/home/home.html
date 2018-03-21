@@ -1,15 +1,31 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar >
     <ion-title>
       Project 1 HomePage
     </ion-title>
   </ion-navbar>
-</ion-header>
 
-<ion-content padding  class ="header">
-  <div>
-    <button ion-button (click)="GotoFrontend()">Next Pages</button>
+
+<ion-content>
+  <div class="size">
+    <ion-card>
+      <img src="../../assets/imgs/Mirror-picture-quote.png"/>
+      <ion-card-content>
+        <ion-card-title>
+          miew
+        </ion-card-title>
+        <p class="white">
+          only 4$
+        </p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <section class="section-about">
+        <button ion-button (click)="GotoFrontend()">Next Pages</button>
+    
+  
     <button ion-button round (click)="ViewUser()" >View User</button>
     <button ion-button (click)="Shoppy()">Shoppy</button>
-  </div>
+  </section>
 </ion-content>
+</ion-header>
