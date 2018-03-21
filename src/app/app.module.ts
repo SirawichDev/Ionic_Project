@@ -1,6 +1,8 @@
+import { ShowPage } from './../pages/fontend/result_show/res';
 import { GotoUserPage } from './../pages/goto-user/goto-user';
-import { ClickmePage } from './../pages/fontend/clickme/clickme';
+
 import { FontendPage } from './../pages/fontend/fontend';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -15,8 +17,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     FontendPage,
-    ClickmePage,
-    GotoUserPage
+    GotoUserPage,
+    ShowPage
   ],
   imports: [
     BrowserModule,
@@ -27,8 +29,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     FontendPage,
-    ClickmePage,
-    GotoUserPage
+    GotoUserPage,
+    ShowPage
   ],
   providers: [
     StatusBar,

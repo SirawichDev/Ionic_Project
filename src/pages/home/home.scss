@@ -1,3 +1,25 @@
+$green-dark:#00E676;
+$green-light : #69F0AE;
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    background-image: linear-gradient(to right,$green-dark,$green-light);
+    height: 95vh;
+}
+.section-about{
+    background-color:#69F0AE;
+    padding: 25rem 0;
+    margin-top: -10vh;
+}
+.white{
+    background: #fff;
+}
+.size{
+    margin-right: 90px;
+}
 page-home {
 
 }
