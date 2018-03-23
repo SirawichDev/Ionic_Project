@@ -7,19 +7,44 @@
 
 
 <ion-content>
-  <div class="size">
+<ion-grid>
+  <ion-row>
+    <ion-col>
     <ion-card>
       <img src="../../assets/imgs/Mirror-picture-quote.png"/>
       <ion-card-content>
+        
         <ion-card-title>
+            <div class="center">
           miew
+        </div>
         </ion-card-title>
+    
         <p class="white">
           only 4$
         </p>
       </ion-card-content>
     </ion-card>
-  </div>
+  </ion-col>
+  <ion-col>
+      <ion-card>
+        <img src="../../assets/imgs/do.jpg"/>
+        <ion-card-content>
+          <ion-card-title>
+            miew
+          </ion-card-title>
+          <p class="center">
+            only 4$
+          </p>
+        </ion-card-content>
+        <div class="center">
+     <button ion-button >Buy</button>
+    </div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
   <section class="section-about">
         <button ion-button (click)="GotoFrontend()">Next Pages</button>
     
