@@ -1,5 +1,6 @@
 import { GotoUserPage } from './../goto-user/goto-user';
 import { FontendPage } from './../fontend/fontend';
+import { GotoShoppy } from './../Shoppy/Shop';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -18,5 +19,7 @@ export class HomePage {
   ViewUser(){
     this.navCtrl.push(GotoUserPage);
   }
-
+  Shoppy(){
+    this.navCtrl.push(GotoShoppy);
+  }
 }
