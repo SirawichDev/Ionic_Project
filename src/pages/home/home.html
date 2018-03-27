@@ -8,7 +8,7 @@
   <section class="section-about-header">
     <ion-grid>
       <ion-row>
-        <ion-col>
+        <ion-col col-auto>
         <ion-card>
           <img src="../../assets/imgs/Mirror-picture-quote.png"/>
           <ion-card-content>
@@ -20,13 +20,14 @@
             <p class="center">
                 only 4$
             </p>
-          </ion-card-content>
             <div class="center">
-              <button class ="bt" ion-button >Buy</button>
-            </div>
+                <button class ="bt" button ion-button >Buy</button>
+              </div>
+          </ion-card-content>
+           
         </ion-card>
       </ion-col>
-      <ion-col>
+      <ion-col >
           <ion-card>
             <img src="../../assets/imgs/do.jpg"/>
             <ion-card-content>
@@ -38,15 +39,33 @@
               <p class="center">
                 only 4$
               </p>
+              <div class="center">
+                  <button class ="bt" ion-button >Buy</button>
+                  </div>
             </ion-card-content>
-            <div class="center">
-        <button class ="bt" ion-button >Buy</button>
-        </div>
           </ion-card>
         </ion-col>
-        
       </ion-row>
-
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <img src="../../assets/imgs/do.jpg"/>
+            <ion-card-content>
+              <ion-card-title>
+                  <div class="center">
+                      item 2 :3
+                    </div>
+              </ion-card-title>
+              <p class="center">
+                only 4$
+              </p>
+              <div class="center">
+                  <button class ="bt" ion-button >Buy</button>
+                  </div>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
     </ion-grid>
     <div class="center">
     <button ion-button round (click)="GotoFrontend()">Previous Pages</button>
