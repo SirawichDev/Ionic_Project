@@ -1,6 +1,6 @@
 import { ShowPage } from './../pages/fontend/result_show/res';
 import { GotoUserPage } from './../pages/goto-user/goto-user';
-
+import { GotoShoppy } from './../pages/Shoppy/Shop';
 import { FontendPage } from './../pages/fontend/fontend';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -18,7 +18,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     FontendPage,
     GotoUserPage,
-    ShowPage
+    ShowPage,
+    GotoShoppy
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     FontendPage,
     GotoUserPage,
-    ShowPage
+    ShowPage,
+    GotoShoppy
   ],
   providers: [
     StatusBar,

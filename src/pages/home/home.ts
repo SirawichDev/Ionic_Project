@@ -18,5 +18,7 @@ export class HomePage {
   ViewUser(){
     this.navCtrl.push(GotoUserPage);
   }
-
+  Shoppy(){
+    this.navCtrl.push(GotoShoppy);
+  }
 }
